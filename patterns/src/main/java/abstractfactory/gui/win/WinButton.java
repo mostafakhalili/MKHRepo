@@ -1,4 +1,10 @@
 package abstractfactory.gui.win;
 
-public class WinButton {
+import abstractfactory.gui.Button;
+
+public class WinButton implements Button {
+    @Override
+    public void render() {
+        System.out.println("win Button rendered");
+    }
 }

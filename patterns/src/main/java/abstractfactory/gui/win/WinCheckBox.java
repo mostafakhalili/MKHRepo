@@ -1,4 +1,10 @@
 package abstractfactory.gui.win;
 
-public class WinCheckBox {
+import abstractfactory.gui.CheckBox;
+
+public class WinCheckBox implements CheckBox {
+    @Override
+    public void render() {
+        System.out.println("win CheckBox rendered");
+    }
 }

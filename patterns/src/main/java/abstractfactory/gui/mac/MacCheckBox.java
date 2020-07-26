@@ -1,4 +1,10 @@
 package abstractfactory.gui.mac;
 
-public class CheckBox {
+import abstractfactory.gui.CheckBox;
+
+public class MacCheckBox implements CheckBox {
+    @Override
+    public void render() {
+        System.out.println("mac CheckBox rendered");
+    }
 }
