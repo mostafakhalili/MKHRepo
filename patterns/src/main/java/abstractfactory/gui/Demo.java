@@ -8,7 +8,7 @@ public class Demo {
     private static  Application application;
     public static void main(String[] args) {
         config(args);
-        application.createUI();//
+        application.createUI();
 
     }
     private static void config(String args[]) {
